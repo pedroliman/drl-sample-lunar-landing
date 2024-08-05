@@ -1,11 +1,13 @@
 # DQN Project
 
-This project implements a Deep Q-Network (DQN) using PyTorch and Gymnasium.
+This sample project implements a Deep Q-Network (DQN) for reinforcement learning using PyTorch and Gymnasium.
 
 ## Setup
 
 1. Install the dependencies:
 ```bash
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 

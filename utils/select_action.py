@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 
 def select_action(q_network: nn.Module, state: torch.Tensor) -> int:
     """

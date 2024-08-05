@@ -1,5 +1,7 @@
 import torch
 import torch.optim as optim
+import torch.nn as nn
+import gymnasium as gym
 from models.q_network import QNetwork
 from utils.describe_episode import describe_episode
 from utils.select_action import select_action
